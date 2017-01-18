@@ -1,0 +1,12 @@
+Source: cm3218x-dkms
+Section: kernel
+Priority: optional
+Maintainer: Matias De lellis <mati86dl@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), dkms
+Standards-Version: 3.9.3
+#Vcs-Git:
+
+Package: cm3218x-dkms
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, dkms, linux-headers-686-pae | linux-headers-amd64
+Description: Module to implemente ambient light sensor from Goldend Crix computer.

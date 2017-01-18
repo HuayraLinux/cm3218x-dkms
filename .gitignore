@@ -1,0 +1,8 @@
+*.ko
+/*.cmd
+/*.mod.c
+/*.mod.o
+/*.mod
+/*.o
+/modules.order
+/Module.symvers/.tmp_versions/cm3218x.mod
